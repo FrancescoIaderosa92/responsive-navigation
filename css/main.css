@@ -45,11 +45,14 @@ nav li {
 nav a {
   display: block;
   padding: .5em .75em;
+  color: #333;
+  text-decoration: none;
+}
+
+nav a:hover {
   background-color: #333;
   color: #fff;
 }
-
-
 
 @media only screen and (min-width: 25em) {
 
@@ -74,6 +77,22 @@ nav a {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+  }
+
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    margin-right: 1.5rem;
   }
 
 }
